@@ -9,7 +9,7 @@ void rot_13(char *str){
       if(str[i]>="n" && str[i]<="z" || str[i]>="N" && str[i]<="Z"){
           str[i]-=13;
       }
-      write(1,str[i],1);
+      write(1,&str[i],1);
       i++;
   }
   
