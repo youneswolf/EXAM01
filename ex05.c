@@ -1,4 +1,4 @@
-void rot_13(char *str1,char *str2){
+void inter(char *str1,char *str2){
   int i=0;
   int j=0;
 while(str1[i]){
